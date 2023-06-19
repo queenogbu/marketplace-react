@@ -1,0 +1,25 @@
+body,
+#wrapper {
+    font-family: 'Roboto', sans-serif
+}
+
+
+@media(max-width: 992px) {
+    .div_sticky {
+        display: none !important;
+    }
+}
+@media(max-width: 480px) {
+    .product-view .content-product-right .box-info-product .cart .btn.btn-checkout {
+        margin: 0 !important;
+    }
+    .product-view .content-product-right .box-info-product .cart .btn {
+        width: 135px !important;
+        margin-bottom: 5px;
+    }
+    .product-view .content-product-right .box-info-product .add-to-links .compare {
+        margin-top: 5px;
+        display: block;
+
+    }
+}
